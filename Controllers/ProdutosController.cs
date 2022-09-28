@@ -18,8 +18,10 @@ namespace CadastroProdutos.Controllers
         }
 
         [HttpGet]
+        [Microsoft.AspNet.OData.EnableQuery]
         public async Task<ActionResult<List<Produto>>> Get()
         {
+            
             return await _context.Produtos.ToListAsync();
         }
 

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CadastroProdutos.Migrations
 {
-    public partial class criandobancodedados : Migration
+    public partial class criandoBanco : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

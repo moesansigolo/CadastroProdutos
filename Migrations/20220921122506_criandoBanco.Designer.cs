@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CadastroProdutos.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220916183349_criando banco de dados")]
-    partial class criandobancodedados
+    [Migration("20220921122506_criandoBanco")]
+    partial class criandoBanco
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
